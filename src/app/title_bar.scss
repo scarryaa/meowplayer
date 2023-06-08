@@ -5,6 +5,35 @@
 
 .titlebar {
   height: 1rem;
+  min-height: 1rem;
   width: 100%;
   background-color: var(--color-titlebar);
+  display: block;
+
+  .titlebar__buttons {
+    display: flex;
+    justify-content: flex-end;
+    margin-left: auto;
+    padding: 0;
+    width: 4.5rem;
+
+    .titlebar__buttons__button {
+      width: 1.5rem;
+      background-color: var(--color-titlebar);
+      margin-top: -8px;
+      text-align: center;
+
+      i {
+        font-size: var(--font-xxs);
+      }
+
+      &:hover {
+        background-color: var(--color-titlebar-hover);
+      }
+
+      &:active {
+        background-color: var(--color-titlebar-active);
+      }
+    }
+  }
 }

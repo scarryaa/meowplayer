@@ -1,12 +1,19 @@
 :root {
-  --color-primary: #203a43; /* Primary color - Dark Blue */
-  --color-secondary: #3b6064; /* Secondary color - Darker Cyan */
-  --color-accent: #86acb9; /* Accent color - Lighter Blue */
-  --color-bg: #1b2329; /* Background color - Very Dark Blue */
-  --color-titlebar: #2f3941; /* Titlebar color - Grey Blue */
-  --color-surface: #2f3941; /* Surface color - Grey Blue */
-  --color-on-primary: #cfcfcf; /* Text color on Primary - White */
-  --color-on-secondary: #ffffff; /* Text color on Secondary - White */
-  --color-on-bg: #ffffff; /* Text color on Background - White */
-  --color-on-surface: #ffffff; /* Text color on Surface - White */
+  --color-primary: #203a43;
+  --color-secondary: #3b6064;
+  --color-accent: #86acb9;
+  --color-bg: #1b2329;
+  --color-titlebar: #2f3941;
+  --color-surface: #2f3941;
+  --color-on-primary: #cfcfcf;
+  --color-on-secondary: #ffffff;
+  --color-on-bg: #ffffff;
+  --color-on-surface: #ffffff;
+
+  --color-titlebar: #101214;
+  --color-titlebar-active: #262d31;
+  --color-titlebar-hover: #3f4a52;
+
+  --color-on-primary--hover: #ffffff;
+  --color-on-primary--active: #c7c7c7;
 }

@@ -1,4 +1,3 @@
-use serde::{Deserialize, Serialize};
 use yew::prelude::*;
 
 #[function_component(TopPanel)]
@@ -8,12 +7,12 @@ pub fn top_panel() -> Html {
             <div class="top-panel__controls">
                 <div class="top-panel__controls__main">
                     <div class="top-panel__controls__main__container flex-row">
-                        <i class="material-symbols-rounded">{"skip_previous"}</i>
-                        <i class="material-symbols-rounded">{"play_circle"}</i>
-                        <i class="material-symbols-rounded">{"skip_next"}</i>
+                        <i class="material-symbols-rounded button-on-primary">{"skip_previous"}</i>
+                        <i class="material-symbols-rounded button-on-primary">{"play_circle"}</i>
+                        <i class="material-symbols-rounded button-on-primary">{"skip_next"}</i>
                         <div class="top-panel__controls__shuffle-repeat">
-                            <i class="material-symbols-rounded">{"shuffle"}</i>
-                            <i class="material-symbols-rounded">{"repeat"}</i>
+                            <i class="material-symbols-rounded button-on-primary">{"shuffle"}</i>
+                            <i class="material-symbols-rounded button-on-primary">{"repeat"}</i>
                         </div>
                     </div>
                     <div class="top-panel__controls__progress">

@@ -1,10 +1,6 @@
-use serde::{Deserialize, Serialize};
-use serde_wasm_bindgen::to_value;
 use wasm_bindgen::prelude::*;
-use wasm_bindgen_futures::spawn_local;
 use yew::prelude::*;
 
-use crate::app::divider::Divider;
 use crate::app::side_panel::SidePanel;
 use crate::app::title_bar::TitleBar;
 use crate::app::top_panel::TopPanel;
@@ -25,7 +21,6 @@ pub fn app() -> Html {
     html! {
         <>
             <TitleBar />
-            <Divider />
             <TopPanel />
             <SidePanel />
         </>
