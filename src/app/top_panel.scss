@@ -32,7 +32,7 @@
 
         .top-panel__controls__progress__slider {
           display: block;
-          width: calc(100% - 36px);
+          width: calc(100% - 82px);
 
           -webkit-appearance: none;
           appearance: none;
@@ -59,6 +59,41 @@
     span,
     i {
       font-size: var(--font-xxxxxxl);
+    }
+
+    .top-panel__controls__volume {
+      position: absolute;
+      left: 140px;
+      top: 94px;
+
+      i {
+        font-size: var(--font-xxl);
+      }
+
+      .top-panel__controls__volume__slider {
+        -webkit-appearance: none;
+        appearance: none;
+        background-color: oklch(0 0 0 / 40%);
+        height: 3px;
+        border-radius: 5px;
+        outline: none;
+        position: absolute;
+        top: 9px;
+        margin-left: 10px;
+        width: 40px;
+
+        &::-webkit-slider-thumb {
+          -webkit-appearance: none;
+          appearance: none;
+          width: 12px;
+          height: 12px;
+          background-color: var(--color-on-primary);
+          filter: drop-shadow(0 1px 2px oklch(0 0 0 / 50%));
+          cursor: pointer;
+          border-radius: 50%;
+          cursor: auto;
+        }
+      }
     }
   }
 

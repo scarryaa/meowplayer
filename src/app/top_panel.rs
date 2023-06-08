@@ -16,13 +16,13 @@ pub fn top_panel() -> Html {
                         </div>
                     </div>
                     <div class="top-panel__controls__progress">
-                        <input type="range" min="0" max="100" value="50" class="top-panel__controls__progress__slider" />
+                        <input type="range" min="0" max="100" value="0" class="top-panel__controls__progress__slider" />
+                    </div>
+                    <div class="top-panel__controls__volume">
+                        <i class="material-symbols-rounded button-on-primary">{"volume_up"}</i>
+                        <input type="range" min="0" max="100" value="50" orient="vertical" class="top-panel__controls__volume__slider" />
                     </div>
                 </div>
-                    // <div class="top-panel__controls__volume">
-                    //     <i class="material-symbols-rounded">{"volume_up"}</i>
-                    //     <input type="range" min="0" max="100" value="50" class="top-panel__controls__volume__slider" />
-                    // </div>
                     // <div class="top-panel__controls__time">
                     //     <span>{"00:00"}</span>
                     //     <span>{"00:00"}</span>
